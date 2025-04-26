@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="16dp"
+
+    android:background="#350F0F"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/baseline_account_circle_24"></ImageView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/rounded_circle"
+            android:hint="Username"
+            android:inputType="text"
+            android:padding="18dp"
+            android:textColor="#fff"
+            android:id="@+id/rusername"
+            android:textColorHint="#fff"
+            android:textSize="28sp"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_circle"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="18dp"
+            android:textColor="#fff"
+            android:id="@+id/rpassword"
+            android:textColorHint="#fff"
+            android:textSize="28sp"></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_circle"
+            android:hint=" Confirmed Password"
+            android:inputType="textPassword"
+            android:padding="18dp"
+            android:textColor="#fff"
+            android:id="@+id/cpassword"
+            android:textColorHint="#fff"
+            android:textSize="28sp"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_circle"
+            android:hint="User Or Admin"
+            android:inputType="text"
+            android:padding="18dp"
+            android:textColor="#fff"
+            android:id="@+id/identity"
+            android:textColorHint="#fff"
+            android:textSize="28sp"></EditText>
+
+
+
+
+        <Button
+            android:id="@+id/finalR_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="#fff"
+            android:padding="18dp"
+            android:text="Register"
+            android:textColor="#331313"
+            android:textSize="30sp"></Button>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

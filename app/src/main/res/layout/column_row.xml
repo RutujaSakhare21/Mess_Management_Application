@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7dp"
+
+        app:cardUseCompatPadding="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="#180707"
+                    android:contentDescription="Contact Image"
+                    android:src="@drawable/thali"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="15dp"
+                        android:id="@+id/txtname"
+                        android:paddingBottom="4dp"
+                        android:layout_marginTop="30dp"
+                        android:text="MessName"
+                        android:textColor="#280C0C"
+                        android:textSize="30dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/txtadd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:paddingLeft="15dp"
+                        android:text="Address"
+                        android:textColor="#210909"
+                        android:textSize="25dp"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Visit"
+                android:id="@+id/visit"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+               android:layout_marginLeft="280dp"
+                android:textColor="#fff"
+                android:backgroundTint="#331212"></Button>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
